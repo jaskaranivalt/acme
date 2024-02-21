@@ -1,0 +1,98 @@
+.next-steps .fa-link {
+  margin-right: 5px;
+}
+
+/* Fix for use only flexbox in content area */
+.next-steps .row {
+  margin-bottom: 0;
+}
+
+.next-steps .col-md-5 {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+}
+
+.spinner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.result-block-container .result-block {
+  opacity: 1;
+}
+
+.logo-container, .success-container{
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width : 90px;
+  height : 90px;
+  padding: 5px;
+}
+
+.logo-container > img.ivalt-image {
+  width: 60px;
+}
+
+.loading {
+position: absolute;
+top: -10px;
+left: -10px;
+right: -10px;
+bottom: -10px;
+border: 8px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+animation: loading 1s linear infinite;
+}
+
+
+.logo-container > img.ivalt-image {
+  width: 60px;
+}
+
+.loading {
+position: absolute;
+top: -10px;
+left: -10px;
+right: -10px;
+bottom: -10px;
+border: 8px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+    border-top-color: #2e69b1b8;
+  }
+  25% {
+    border-right-color: #2e69b1b8;
+  }
+  50% {
+    transform: rotate(180deg);
+    border-bottom-color: #2e69b194;
+  }
+  75% {
+    border-left-color: #2e69b1c4;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-top-color: #24528dcf;
+  }
+}
