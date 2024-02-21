@@ -41,7 +41,9 @@ const NavBar = () => {
     <div className="nav-container">
       <Navbar color="light" light expand="md" container={false}>
         <Container>
-          <img className="mb-1" src={"https://ivalt.com/images/logo.png"} alt="iVALT logo" width={150} />
+          <a href="https://ivalt.com/">
+            <img className="mb-1" src={"https://ivalt.com/images/logo.png"} alt="iVALT logo" width={150} />
+          </a>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
