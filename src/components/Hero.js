@@ -25,10 +25,10 @@ const Hero = () => {
     <br/>
     <hr/>
     <br/>
-    <h1 className="mb-4">iVALT Biomatics Multifactor Authentication</h1>
+    <h1 className="mb-4">iVALT biometrics Multi-factor Authentication</h1>
 
     <p className="lead">
-      This is a sample application that demonstrates an authentication flow using iVALT Biomatics and the Auth0.
+      This is a sample application that demonstrates an authentication flow using iVALT biometrics and the Auth0.
     </p>
   </div>
 )};

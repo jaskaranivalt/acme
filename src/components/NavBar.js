@@ -41,7 +41,7 @@ const NavBar = () => {
     <div className="nav-container">
       <Navbar color="light" light expand="md" container={false}>
         <Container>
-          <NavbarBrand className="logo" />
+          <img className="mb-1" src={"https://ivalt.com/images/logo.png"} alt="iVALT logo" width={180} />
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
