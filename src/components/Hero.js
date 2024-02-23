@@ -25,7 +25,7 @@ const Hero = () => {
     <br/>
     <hr/>
     <br/>
-    <h3 className="mb-4">iVALT biometrics Multi-factor Authentication</h3>
+    <h3 className="mb-4">1-Click ZERO TRUST Identity</h3>
 
     <p className="lead">
       This is a sample application that demonstrates an authentication flow using iVALT biometrics and the Auth0.
